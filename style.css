@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.car-title-wrapper {
+  background-color: #004991;
+  text-align: center;
+  font-size: 2rem;
+}
+.car-title {
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  color: #00dbef;
+}
+.mv-btn-wrapper {
+  width: fit-content;
+}
+
+.mv-btn {
+  background-color: #004991;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+  border-radius: 8px;
+}
+
+.stop-car {
+  background-color: red;
+}
+
+.mv-btn:hover {
+  background-color: #fff;
+  color: #004991;
+  border: 1px solid #004991;
+}
+
+.car-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.car-container img {
+  transition: all 2s ease;
+}
